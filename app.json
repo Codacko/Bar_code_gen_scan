@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "lko",
-    "slug": "lko",
+    "name": "BarCodeGenScaner",
+    "slug": "BarCodeGenScaner",
     "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/download.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/download.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
