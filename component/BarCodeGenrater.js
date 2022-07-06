@@ -12,7 +12,6 @@ import { useNavigation } from "@react-navigation/native";
 import QRCode from "react-native-qrcode-svg";
 import Scanner from "./Scanner";
 import {Surface, Shape} from '@react-native-community/art';
-
 import Barcode from "react-native-barcode-builder";
 
 
@@ -49,15 +48,12 @@ export default function BarCodeGenrater() {
             style={{ width: 100, height: 100 }}
             value={text}
             id='123456'
-            // logo={{ uri: base64Logo }}
             size={300}
             logoBackgroundColor="transparent"
           />
         ) : null}
       </TouchableOpacity>
       <Text></Text>
-      {/* <Barcode value="Hello World"  /> */}
-    
     </View>
   );
 }
